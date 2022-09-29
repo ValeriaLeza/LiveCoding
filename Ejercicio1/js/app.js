@@ -1,19 +1,9 @@
-// Escribe tu código aquí.
-//let li = document.createElement("li");//<li> //crea un elemento lista en formato html
-//li.inncreateElementerText= "Hola";
-//li.className= "list-group-item";
-
-
-
-
 let myArray = ['insecto', 'bootcamp', 'mangos', 'reptil', 'mosca', 'escritorio'];
 let palabra="bocina"
 console.log("Mi arreglo: "+ myArray);
 console.log(myArray[0].length);
 console.log(palabra.length);
 console.log(myArray.length);
-//console.log(myArray.splice(0,1));
-//console.log("Mi arreglo: "+ myArray);
 
 function Arreglos (myArray) {
     for (let i = 0; i < myArray.length; i++) {
